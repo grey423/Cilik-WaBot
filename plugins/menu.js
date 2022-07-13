@@ -31,7 +31,7 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-╭─「 %me 」
+╭ ◈ ━━━━━━ 「 %me 」 ━━━━━━ ◈
 │ %ucapan, %name!
 │
 │ Tanggal: *%week %weton, %date*
@@ -40,8 +40,6 @@ const defaultMenu = {
 │
 │ Uptime: *%uptime (%muptime)*
 │ Database: %rtotalreg of %totalreg
-│ Github:
-│ %github
 ╰────
 %readmore`.trimStart(),
   header: '╭─「 %category 」',
@@ -182,18 +180,18 @@ function clockString(ms) {
 }
 function ucapan() {
   const time = (new Date().getUTCHours() + 7) % 24
-  res = "Woi. Pagi"
+  res = "Selamat. Pagi Ayang"
   if (time >= 4) {
-    res = "Selamat Pagi"
+    res = "Selamat Pagi Ayang🥰"
   }
   if (time >= 12) {
-    res = "Selamat Siang"
+    res = "Selamat Siang Ayang🥰"
   }
   if (time >= 15) {
-    res = "Selamat Sore"
+    res = "Selamat Sore Ayang🥰"
   }
   if (time >= 19) {
-    res = "Selamat Malam"
+    res = "Selamat Malam Ayang🥰"
   }
   return res
 }
