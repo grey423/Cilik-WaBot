@@ -21,11 +21,6 @@ say('Lightweight\nWhatsApp Bot', {
   align: 'center',
   gradient: ['red', 'magenta']
 })
-say(`'${name}' By @${author.name || author}`, {
-  font: 'console',
-  align: 'center',
-  gradient: ['red', 'magenta']
-})
 
 var isRunning = false
 /**
