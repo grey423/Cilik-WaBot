@@ -31,7 +31,7 @@ let tags = {
 }
 const defaultMenu = {
   before: `
-╭ ◈ ━━━━━━ 「 %me 」 ━━━━━━ ◈
+╭◈ ━━━━━━ 「 %me 」 ━━━━━━ ◈
 │ %ucapan, %name!
 │
 │ Tanggal: *%week %weton, %date*
@@ -40,7 +40,7 @@ const defaultMenu = {
 │
 │ Uptime: *%uptime (%muptime)*
 │ Database: %rtotalreg of %totalreg
-╰────
+╰◈ ━━━━━━━━━━━━━━━━━━━━━━━ ◈
 %readmore`.trimStart(),
   header: '╭─「 %category 」',
   body: '│ • %cmd %islimit %isPremium',
